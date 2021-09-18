@@ -1,0 +1,90 @@
+
+.background-image{
+  background: url('https://i.pinimg.com/originals/50/b4/1c/50b41c8c1f2f429696b98752fda9b545.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.main-heading{
+  display: flex;
+  justify-content: center;
+  font-size: 3.5rem;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  color: black;
+  text-shadow: 2.5px 2.5px rgb(149, 139, 139);
+  
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 6%;
+}
+
+.writing-output {
+  background-color: #303030;
+  min-height: 300px;
+  width: 600px;
+  border-radius: 20px;
+  border: 5px solid rgb(52, 162, 226);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.button-details{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+button{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  background-color: rgb(223, 223, 50);
+  border-radius: 5px;
+  padding: 3px 3px 5px 5px;
+  cursor: pointer;
+}
+
+.output{
+  color: lightgrey;
+  padding: 15px;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.author-details{
+  color: lightgrey;
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+  font-size: 1.1rem;
+}
+
+button:hover{
+  background-color: yellow;
+  box-shadow: 1px 1px 1px 1px rgb(105, 104, 104);
+}
+
+@media screen and (max-width:1024px) {
+  html{
+    font-size: 1.3rem;
+  }
+  .writing-output{
+    width: 700px;
+  }
+}
+
+@media screen and (max-width:539px) {
+  html{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width:330px) {
+  html{
+    font-size: 0.7rem;
+  }
+}
